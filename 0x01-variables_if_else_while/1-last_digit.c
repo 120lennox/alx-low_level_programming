@@ -8,7 +8,7 @@
 int main(void)
 {
 int last_digit;
-char string[] = "Last digit of ";
+char string[] = "Last digit of";
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
