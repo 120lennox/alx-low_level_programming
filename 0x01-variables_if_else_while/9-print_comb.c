@@ -14,6 +14,8 @@ if (num < 9)
 putchar(',');
 putchar(' ');
 }
+else
+putchar(' ');
 num++;
 }
 return (0);
