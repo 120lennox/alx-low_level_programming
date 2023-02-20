@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - prints all integers less than 10
+ *main - prints all numbers less than 10
  *Return: 0 on success
  */
 int main(void)
@@ -8,9 +8,9 @@ int main(void)
 int num = 0;
 while (num < 10)
 {
-printf("%d", num);
+putchar(num + '0');
 num = num + 1;
 }
-printf('\n');
+putchar('\n');
 return (0);
 }
