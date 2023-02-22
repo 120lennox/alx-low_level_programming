@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ *main - prints _putchar
+ *Return: 0 on success
+ */
+int main(void)
+{
+int i;
+char character[] = "_putchar";
+for (i = 0; character[i] != '\0'; i++)
+{
+putchar(character[i]);
+}
+putchar('\n');
+return (0);
+}
