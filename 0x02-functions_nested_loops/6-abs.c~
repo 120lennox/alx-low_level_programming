@@ -1,0 +1,19 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ *_abs - returns absolute value
+ *@int: takes abs
+ *Return: 0 on success
+ */
+int _abs(int)
+{
+int num
+if (num < 0)
+{
+return -num;
+}
+else
+{
+return num;
+}
+}
