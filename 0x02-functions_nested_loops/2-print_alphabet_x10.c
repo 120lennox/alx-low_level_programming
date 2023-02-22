@@ -17,5 +17,4 @@ letter++;
 _putchar('\n');
 times++;
 }
-return (0);
 }
