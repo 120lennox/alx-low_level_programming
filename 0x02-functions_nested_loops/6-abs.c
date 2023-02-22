@@ -2,18 +2,17 @@
 #include <stdio.h>
 /**
  *_abs - returns absolute value
- *@int: takes abs
+ *@abs_num: takes abs
  *Return: 0 on success
  */
-int _abs(int)
+int _abs(int abs_num)
 {
-int num
-if (num < 0)
+if (abs_num < 0)
 {
-return (-num);
+return (-abs_num);
 }
 else
 {
-return (num);
+return (abs_num);
 }
 }
