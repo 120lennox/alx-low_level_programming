@@ -4,9 +4,9 @@
  *@digit: the last digit to be returned
  *Return: 0 om success
  */
-int print_last_digit(int digit)
+int print_last_digit(int num)
 {
-int num;
+int digit;
 digit = num % 10;
 if (digit < 0)
 {
