@@ -1,6 +1,9 @@
 #include "main.h"
 /**
  *jack_bauer - prints 24hrs times
+ *@hours: hours
+ *@minutes: mins
+ *Return: 0 on success
  */
 void jack_bauer(void)
 {
@@ -14,4 +17,5 @@ _putchar(':');
 _putchar(minutes);
 _putchar('\n');
 }
+return (0);
 }
