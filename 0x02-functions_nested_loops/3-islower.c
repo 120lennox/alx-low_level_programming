@@ -7,10 +7,13 @@
 int _islower(int c)
 {
 c = _islower('H');
-if (c >= 97 && c <= 122)
-{
+_putchar(c + '0');
+c = _islower('0');
+_putchar(c + '0');
+c = _islower(108);
+_putchar(c + '0');
+c = _islower(';');
+_putchar(c + '0');
+_putchar('\n');
 return (0);
-}
-else
-return (1);
 }
