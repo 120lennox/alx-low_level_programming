@@ -4,8 +4,8 @@
   */
 void print_numbers(void)
 {
-int num = 48;
-while (num >= 48 && num <= 57)
+int num = 0;
+while (num >= 0 && num <= 9)
 {
 _putchar(num + '0');
 num++;
