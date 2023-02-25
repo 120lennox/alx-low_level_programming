@@ -1,0 +1,13 @@
+#include "main.h"
+/**
+ *mul - multiplies two integers
+ *@a: has int 1
+ *@b: has int 2
+ *@result: contains product
+ *Return: result
+ */
+int mul(int a, int b)
+{
+int result = a * b;
+return (result);
+}
