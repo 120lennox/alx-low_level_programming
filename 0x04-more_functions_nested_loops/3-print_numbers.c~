@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ *print_numbers - prints all numbers from 0 -9
+ *@num: has all numbers
+ */
+void print_numbers(void)
+{
+int num = 48;
+while (num >= 48 && num <= 57)
+{
+putchar(num);
+num++;
+}
+}
