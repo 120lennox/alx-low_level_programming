@@ -4,7 +4,6 @@
 /**
  *_strlen - counts number of a char in a string
  * @s: pointer
- * @length: counts number of string
  *Return: length of str
  */
 int _strlen(char *s)
