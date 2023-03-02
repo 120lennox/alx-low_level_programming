@@ -1,0 +1,1 @@
+this dir contains code about More pointers, arrays and strings
