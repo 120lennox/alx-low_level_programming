@@ -1,0 +1,1 @@
+this dir contains 0x07-pointers_arrays_strings funtcions that perfoms a given task
