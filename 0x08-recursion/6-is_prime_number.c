@@ -5,12 +5,6 @@
  * @i: num 2
  * Return: prime
  */
-
-/**
- *is_prime_number - gets prime num
- * @n: num
- * Return: recursive func
- */
 int is_prime_number_helper(int n, int i)
 {
 if (n <= 1)
@@ -30,6 +24,11 @@ else
 return (is_prime_number_helper(n, i + 1));
 }
 }
+/**
+ *is_prime_number - gets prime num
+ * @n: num
+ * Return: recursive func
+ */
 int is_prime_number(int n)
 {
 return (is_prime_number_helper(n, 2));
