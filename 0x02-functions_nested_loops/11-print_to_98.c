@@ -8,7 +8,7 @@ void print_num(int num)
 {
 	if (num < 10)
 	{
- 		_putchar(num + '0');
+		_putchar(num + '0');
 	}
 	else
 	{
@@ -16,12 +16,15 @@ void print_num(int num)
 		_putchar((num % 10) + '0');
 	}
 }
-/** print_to_98 - print natural nums to 98
+
+/**
+ * print_to_98 - print natural nums to 98
  * @n: start int
 */
 void print_to_98(int n)
 {
 	int start;
+
 	start = n;
 
 	if (start < 98)
@@ -55,7 +58,7 @@ void print_to_98(int n)
 				{
 					print_num(start);
 				}
-			start = start -1;
+			start = start - 1;
 		}
 		_putchar('\n');
 	}

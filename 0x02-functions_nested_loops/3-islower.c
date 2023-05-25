@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - prints letters
+ * _islower - prints letters
+ * @c: character
  * Return: 0 on success
 */
 int _islower(int c)

@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_num - modified putchar function
- * @n: int n
+ * @num: int num
 */
 void print_num(int num)
 {
@@ -23,22 +23,25 @@ void print_num(int num)
 void print_times_table(int n)
 {
 	int limit;
+
 	limit = n;
 	int i, j;
+
 	for (i = 0; i <= limit; i++)
 	{
 		for (j = 0; j <= limit; j++)
 		{
 			int product;
+
 			product = i * j;
 			print_num(product);
 			_putchar(',');
 			_putchar(' ');
-            		if (i == limit || j == limit)
+			if (i == limit || j == limit)
 			{
-                		print_num(product);
-            		}
+				print_num(product);
+			}
 		}
-        	_putchar('\n');
+		_putchar('\n');
 	}
 }

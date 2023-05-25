@@ -20,10 +20,12 @@ void print_time(int hr, int min)
 void jack_bauer(void)
 {
 	int hours;
+
 	int mins;
+
 	for (hours = 0; hours < 24; hours++)
 	{
-		for(mins = 0; mins < 60; mins++)
+		for (mins = 0; mins < 60; mins++)
 		{
 			print_time(hours, mins);
 		}

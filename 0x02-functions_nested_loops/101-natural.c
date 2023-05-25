@@ -2,27 +2,28 @@
 #include "main.h"
 /**
  * print_num - modified putchar function
- * @n: int n
+ * @num: int num
 */
 void print_num(int num)
 {
-        if (num < 10)
-        {
-                _putchar(num + '0');
-        }
-        else
-        {
-                print_num(num / 10);
-                _putchar((num % 10) + '0');
-        }
+	if (num < 10)
+	{
+		_putchar(num + '0');
+	}
+	else
+	{
+		print_num(num / 10);
+		_putchar((num % 10) + '0');
+	}
 }
 /**
  * sum_natural_numbers - calculates sum of naturals numbers
  * Return: sum
 */
-int sum_natural_numbers()
+int sum_natural_numbers(void)
 {
 	int limit;
+
 	limit = 1024;
 	int i = 1, sum = 0;
 
@@ -43,6 +44,7 @@ int sum_natural_numbers()
 int main(void)
 {
 	int sum;
+
 	sum = sum_natural_numbers();
 	print_num(sum);
 	return (0);

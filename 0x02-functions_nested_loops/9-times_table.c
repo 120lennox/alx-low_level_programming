@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * print_num - modified putchar function that rpints integers
- * @n: int n
+ * @num: int n
 */
 void print_num(int num)
 {
@@ -9,7 +10,7 @@ void print_num(int num)
 	{
 		_putchar(num + '0');
 	}
-	else 
+	else
 	{
 		print_num(num / 10);
 		_putchar((num % 10) + '0');
@@ -21,8 +22,11 @@ void print_num(int num)
 void times_table(void)
 {
 	int i;
-	int j; 
+
+	int j;
+
 	int result;
+
 	for (i = 0; i < 10; i++)
 	{
 		for (j = 0; j < 10; j++)
@@ -33,5 +37,5 @@ void times_table(void)
 			_putchar(' ');
 		}
 	_putchar('\n');
-	}   
+	}
 }
