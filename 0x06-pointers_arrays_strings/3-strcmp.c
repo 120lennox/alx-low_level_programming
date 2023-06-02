@@ -1,15 +1,14 @@
+#include <string.h>
 #include "main.h"
-#include<string.h>
+#include <stdio.h>
 /**
- **_strncpy - joins string dest and src
+ *_strcmp - compares two strings
+ * @s1: string input 1
  *
- * @dest: destination of the string
- * @src: source of the string
- * @n: cutoff number
- * Return: char
-*/
-
-char *_strncpy(char *dest, char *src, int n)
+ * @s2: string input 2
+ *Return: returns a strcmp function on success
+ */
+int _strcmp(char *s1, char *s2)
 {
-return (strncpy(dest, src, n));
+return (strcmp(s1, s2));
 }
